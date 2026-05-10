@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Hexo">
+  <meta name="description" content="A curated video site for licensed, owned, or publicly embeddable film and series links.">
+  <title>Publishing Guide | SZ Video</title>
+  <link rel="stylesheet" href="/css/main.css?v=20260510-szstream">
+</head>
+<body class="browse-view">
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="SZ Video">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-copy">
+        <span class="brand-name">SZ Video</span>
+        <span class="brand-subtitle">Screening room</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/archives/">Library</a>
+      <a href="/tags/">Tags</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <article class="page-content standalone">
+  <header class="content-head">
+    <p class="eyebrow">SZ Video</p>
+    <h1>Publishing Guide</h1>
+  </header>
+  <p>Create a new video post with:</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">npm run new video <span class="string">&quot;Movie Title&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>Then edit the generated file in <code>source/_posts/</code>. The key field is <code>embed</code>, which should be a direct embeddable player URL such as a YouTube <code>/embed/</code> link, Vimeo player URL, Internet Archive embed URL, or another source that allows embedding.</p>
+<p>Use <code>cover</code> when you want a custom poster image. If <code>cover</code> is empty and the link is from YouTube, the theme will try to use the YouTube thumbnail automatically.</p>
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 SZ Video Editorial</span>
+    <a href="/publish-guide/">Publish</a>
+  </footer>
+</body>
+</html>
